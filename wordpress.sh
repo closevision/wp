@@ -2,4 +2,6 @@
 
 wget https://wordpress.org/latest.tar.gz
 tar -xzf latest.tar.gz
-cp -r wordpress/* /var/www/html/
+rm latest-.tar.gz
+sudo cp -r wordpress/* /var/www/html/
+
